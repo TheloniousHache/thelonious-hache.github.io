@@ -2,6 +2,9 @@ title: "Thélonious Hache"
 description: "Énergie, politiques publiques et stratégie industrielle"
 author: "Thélonious Hache"
 
+url: "https://thelonioushache.github.io"
+baseurl: ""
+
 theme: minima
 
 lang: fr
