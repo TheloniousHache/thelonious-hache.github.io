@@ -2,6 +2,8 @@
 layout: home
 ---
 
+# Énergie, politiques publiques et stratégie industrielle
+
 Bienvenue sur mon espace de réflexion consacré aux politiques publiques de l'énergie.
 
 J'y publie des articles, analyses et notes de synthèse consacrés notamment aux systèmes électriques, au nucléaire, aux énergies renouvelables, aux marchés de l'énergie et aux politiques industrielles.
