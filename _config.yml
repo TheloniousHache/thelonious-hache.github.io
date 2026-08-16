@@ -1,0 +1,14 @@
+title: "Thélonious Hache"
+description: "Énergie, politiques publiques et stratégie industrielle"
+author: "Thélonious Hache"
+
+theme: minima
+
+lang: fr
+
+markdown: kramdown
+
+permalink: /:categories/:year/:month/:day/:title/
+
+header_pages:
+  - about.md
