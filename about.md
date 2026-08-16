@@ -4,8 +4,6 @@ title: À propos
 permalink: /about/
 ---
 
-# À propos
-
 Je suis ingénieur de formation et je travaille sur des problématiques liées à l'énergie, à l'industrie et aux systèmes complexes.
 
 Cet espace rassemble mes réflexions, articles et notes de synthèse sur les politiques publiques de l'énergie.
