@@ -229,6 +229,31 @@ a {
   color: #777;
 }
 
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #666;
+  text-decoration: none;
+}
+
+.linkedin-link:hover {
+  color: #111;
+}
+
+.linkedin-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
 
 /* =========================================================
    Mobile
