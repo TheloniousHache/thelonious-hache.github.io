@@ -10,19 +10,17 @@ Tous mes articles consacrés aux politiques publiques de l'énergie.
 
 {% for post in site.posts %}
 
-<article class="article-list-item">
+<div class="article-list-item">
 
-  <p class="post-date">
+  <div class="article-date">
     {{ post.date | date: "%d/%m/%Y" }}
-  </p>
+  </div>
 
-  <h2>
-    <a href="{{ post.url | relative_url }}">
-      {{ post.title }}
-    </a>
-  </h2>
+  <div class="article-title">
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </div>
 
-</article>
+</div>
 
 {% endfor %}
 
