@@ -1,0 +1,110 @@
+---
+layout: default
+---
+
+<section class="home-intro">
+
+  <h1>Énergie, politiques publiques et stratégie industrielle</h1>
+
+  <p class="lead">
+    Bienvenue sur mon espace de réflexion consacré aux politiques publiques de l'énergie.
+  </p>
+
+  <p>
+    J'y publie des articles, analyses et réflexions consacrés notamment aux systèmes
+    électriques, au nucléaire, aux énergies renouvelables, aux marchés de l'énergie
+    et aux politiques industrielles.
+  </p>
+
+</section>
+
+
+<section class="home-section">
+
+  <h2>Derniers articles</h2>
+
+  {% if site.posts.size > 0 %}
+
+    <div class="post-list">
+
+      {% for post in site.posts limit:5 %}
+
+        <article class="post-preview">
+
+          <p class="post-date">
+            {{ post.date | date: "%d/%m/%Y" }}
+          </p>
+
+          <h3>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+
+          {% if post.excerpt %}
+            <p>
+              {{ post.excerpt | strip_html | truncatewords: 40 }}
+            </p>
+          {% endif %}
+
+        </article>
+
+      {% endfor %}
+
+    </div>
+
+  {% else %}
+
+    <p>Aucun article n'a encore été publié.</p>
+
+  {% endif %}
+
+</section>
+
+
+<section class="home-section">
+
+  <h2>Thématiques</h2>
+
+  <div class="topics">
+
+    <div class="topic">
+      <h3>Électricité</h3>
+      <p>
+        Marchés électriques, organisation du système, régulation et réforme
+        du marché européen.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>Nucléaire</h3>
+      <p>
+        Politique nucléaire, industrie, économie des projets et stratégie énergétique.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>Renouvelables</h3>
+      <p>
+        Développement des énergies renouvelables, intégration au système électrique
+        et politiques publiques.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>Industrie</h3>
+      <p>
+        Politique industrielle, chaînes de valeur, souveraineté et décarbonation.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>Géopolitique de l'énergie</h3>
+      <p>
+        Relations internationales, ressources énergétiques et sécurité énergétique.
+      </p>
+    </div>
+
+  </div>
+
+</section>
