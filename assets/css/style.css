@@ -1,0 +1,257 @@
+/* =========================================================
+   Base
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.7;
+  color: #222;
+  background: #fff;
+}
+
+
+/* =========================================================
+   Header
+   ========================================================= */
+
+.site-header {
+  border-bottom: 1px solid #ddd;
+  padding: 2.5rem 1.5rem 1.5rem;
+}
+
+.site-header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.site-title {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #111;
+  text-decoration: none;
+}
+
+.site-description {
+  margin: 0.25rem 0 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+
+.site-nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   Main
+   ========================================================= */
+
+.site-main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.25;
+  color: #111;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+}
+
+a {
+  color: #333;
+}
+
+
+/* =========================================================
+   Homepage
+   ========================================================= */
+
+.home-intro {
+  max-width: 750px;
+  margin-bottom: 4rem;
+}
+
+.home-intro h1 {
+  max-width: 700px;
+}
+
+.lead {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.home-section {
+  margin-top: 4rem;
+}
+
+.post-preview {
+  padding: 1.5rem 0;
+  border-top: 1px solid #ddd;
+}
+
+.post-preview h3 {
+  margin: 0.25rem 0 0.5rem;
+}
+
+.post-preview h3 a {
+  text-decoration: none;
+}
+
+.post-preview h3 a:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.topics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.topic {
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+.topic h3 {
+  margin-top: 0;
+}
+
+
+/* =========================================================
+   Pages
+   ========================================================= */
+
+.page {
+  max-width: 750px;
+}
+
+.page-content {
+  margin-top: 2rem;
+}
+
+
+/* =========================================================
+   Articles
+   ========================================================= */
+
+.post {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.post-header {
+  margin-bottom: 3rem;
+}
+
+.post-header h1 {
+  margin-top: 0.5rem;
+}
+
+.post-categories {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.post-content h2 {
+  margin-top: 3rem;
+}
+
+.post-content h3 {
+  margin-top: 2rem;
+}
+
+
+/* =========================================================
+   Footer
+   ========================================================= */
+
+.site-footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+  border-top: 1px solid #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+
+/* =========================================================
+   Mobile
+   ========================================================= */
+
+@media (max-width: 650px) {
+
+  .site-header {
+    padding-top: 1.5rem;
+  }
+
+  .site-nav {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .site-main {
+    padding-top: 2.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .topics {
+    grid-template-columns: 1fr;
+  }
+
+}
