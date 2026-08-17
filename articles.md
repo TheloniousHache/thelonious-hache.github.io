@@ -22,12 +22,6 @@ Tous mes articles consacrés aux politiques publiques de l'énergie.
     </a>
   </h2>
 
-  {% if post.excerpt %}
-    <p>
-      {{ post.excerpt | strip_html | truncatewords: 40 }}
-    </p>
-  {% endif %}
-
 </article>
 
 {% endfor %}
