@@ -5,13 +5,8 @@ author: "Thélonious Hache"
 url: "https://thelonioushache.github.io"
 baseurl: ""
 
-theme: minima
-
 lang: fr
 
 markdown: kramdown
 
 permalink: /:categories/:year/:month/:day/:title/
-
-header_pages:
-  - about.md
