@@ -127,6 +127,9 @@ a {
   margin-top: 4rem;
 }
 
+
+/* Derniers articles sur la page d'accueil */
+
 .post-preview {
   padding: 1.5rem 0;
   border-top: 1px solid #ddd;
@@ -148,8 +151,12 @@ a {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
+  line-height: 1.2;
   color: #777;
 }
+
+
+/* Thématiques */
 
 .topics {
   display: grid;
@@ -184,6 +191,11 @@ a {
    Articles
    ========================================================= */
 
+
+/* ---------------------------------------------------------
+   Page listant tous les articles
+   --------------------------------------------------------- */
+
 .article-list-item {
   padding: 1rem 0;
   border-top: 1px solid #ddd;
@@ -214,14 +226,69 @@ a {
   text-decoration: underline;
 }
 
+
+/* ---------------------------------------------------------
+   Article individuel
+   --------------------------------------------------------- */
+
+.post {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.post-header {
+  margin-bottom: 3rem;
+}
+
+
+/* Date de l'article */
+
+.post-header .post-date {
+  margin: 0 0 0.5rem;
+}
+
+
+/* Titre de l'article */
+
+.post-header h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/* Sous-titre de l'article */
+
 .post-subtitle {
-  margin: 0.75rem 0 0;
+  margin: 0.6rem 0 0;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-style: italic;
+  font-weight: normal;
   line-height: 1.5;
   color: #666;
 }
+
+
+/* Catégories */
+
+.post-categories {
+  margin-top: 0.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+
+/* Contenu de l'article */
+
+.post-content h2 {
+  margin-top: 3rem;
+}
+
+.post-content h3 {
+  margin-top: 2rem;
+}
+
 
 /* =========================================================
    Footer
@@ -288,6 +355,11 @@ a {
 
   .topics {
     grid-template-columns: 1fr;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
 }
